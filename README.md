@@ -8,6 +8,8 @@ This is a small user authentication system project built using Python tech stack
 > Read note and uncomment modules and libraries from requirements.txt file.<br>
 > Please create a MongoDB database called **UsersDB** and inside it create a collection called **users**. [click here](https://account.mongodb.com/account/login).
 
+## Project setup
+
 - Download the project by cloning this project.
 
 ```bash
