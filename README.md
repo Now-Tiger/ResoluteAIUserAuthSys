@@ -5,7 +5,8 @@ This is a small user authentication system project built using Python tech stack
 ---
 
 > [!IMPORTANT]
-> Please create a MongoDB database called **UsersDB** and inside it create a collection called **users**. [click here](https://account.mongodb.com/account/login)
+> Read and uncomment modules and libraries from requirements.txt file.
+> Please create a MongoDB database called **UsersDB** and inside it create a collection called **users**. [click here](https://account.mongodb.com/account/login).
 
 - Download the project by cloning this project.
 
