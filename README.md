@@ -1,6 +1,8 @@
 # User Authentication System 🚀
 
-This is a small project user authentication system project built using Python tech stack.
+This is a small user authentication system project built using Python tech stack & MongoDB database.
+
+---
 
 > [!IMPORTANT]
 > Please create a MongoDB database called **UsersDB** and inside it create a collection called **users**. [click here](https://account.mongodb.com/account/login)
