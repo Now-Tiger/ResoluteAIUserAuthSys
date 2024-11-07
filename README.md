@@ -23,6 +23,15 @@ This is a small project user authentication system project built using Python te
 
 ## URL Endpoints
 
+<mark>You can hit all the endpoints from FastAPI's swagger page(one place), which can be accessed via below URL</mark>
+
+```bash
+>> http://127.0.0.1:8080/docs
+```
+
+You'll have something like this:
+![image](./images/swagger_page.png)
+
 #### User Sign up 📌
 
 ```bash
