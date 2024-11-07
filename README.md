@@ -15,6 +15,12 @@ This is a small project user authentication system project built using Python te
 - Install the Python modules by running `pip install requirements.txt`
 - Read and rename `.example_env` file with `.env`
 
+- If you have conda installed then run below command that will create a new environment and install all the modules/libraries.
+
+```bash
+conda create --name <env_name> --file requirements.txt
+```
+
 ## URL Endpoints
 
 #### User Sign up 📌
