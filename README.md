@@ -18,7 +18,7 @@ This is a small project user authentication system project built using Python te
 - If you have conda installed then run below command that will create a new environment and install all the modules/libraries.
 
 ```bash
-conda create --name <env_name> --file requirements.txt
+>> conda create --name <env_name> --file requirements.txt
 ```
 
 ## URL Endpoints
