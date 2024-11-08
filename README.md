@@ -8,7 +8,7 @@ This is a small project user authentication system project built using Python te
 - Download the project by cloning this project.
 
 ```bash
->> git clone https://github.com/Now-Tiger/ResoluteAIUserAuthSys.git
+git clone https://github.com/Now-Tiger/ResoluteAIUserAuthSys.git
 ```
 
 - First create a python virtual environment.
@@ -18,7 +18,7 @@ This is a small project user authentication system project built using Python te
 - If you have conda installed then run below command that will create a new environment and install all the modules/libraries.
 
 ```bash
->> conda create --name <env_name> --file requirements.txt
+conda create --name <env_name> --file requirements.txt
 ```
 
 ## URL Endpoints
@@ -26,7 +26,7 @@ This is a small project user authentication system project built using Python te
 <mark>You can hit all the endpoints from FastAPI's swagger page(one place), which can be accessed via below URL</mark>
 
 ```bash
->> http://127.0.0.1:8080/docs
+http://127.0.0.1:8080/docs
 ```
 
 You'll have something like this:
@@ -39,7 +39,7 @@ You'll have something like this:
 
 # Or you copy past below command on your terminal
 
->> curl -d "first_name=John" -d "last_name=Doe" -d "username=johndoe88" -d "password=johnspassowrd" -d "email=john@gmail.com" -X 'POST' http://127.0.0.1:8080/api/v1/product/signup
+curl -d "first_name=John" -d "last_name=Doe" -d "username=johndoe88" -d "password=johnspassowrd" -d "email=john@gmail.com" -X 'POST' http://127.0.0.1:8080/api/v1/product/signup
 ```
 
 #### Log in 📌
@@ -47,7 +47,7 @@ You'll have something like this:
 ```bash
 # URL: http://127.0.0.1:8080/api/v1/product/login
 
->> curl -d "username=johndoe88" -d "password=johnspassowrd" -X 'POST' http://127.0.0.1:8080/api/v1/product/login
+curl -d "username=johndoe88" -d "password=johnspassowrd" -X 'POST' http://127.0.0.1:8080/api/v1/product/login
 ```
 
 #### User authorized actions 📌
@@ -58,7 +58,7 @@ These actions are user specific actions.<br>
 ![image](./images/change_password.png)
 
 ```bash
-> curl -d "old_passowrd=johnspassword" -d "new_password=johns_new_password" -X 'PUT' http://127.0.0.1:8080/api/v1/product/user/me/changePassword
+curl -d "old_passowrd=johnspassword" -d "new_password=johns_new_password" -X 'PUT' http://127.0.0.1:8080/api/v1/product/user/me/changePassword
 ```
 
 ## Tech stack 🦖
