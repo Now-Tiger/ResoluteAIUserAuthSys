@@ -1,0 +1,7 @@
+### TODO:
+### 1. Rename this file to .env
+### 2. Replace mongodb url with your valid mongodb url from website. (mongodb atlas)
+
+MONGO_DB_URL="mongodb+srv://<user_here>:<password_here>@atlascluster.90ivwuv.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
+JWT_SECRET="0xOraclexMissing"
+JWT_ALGORITHM="HS256" 
