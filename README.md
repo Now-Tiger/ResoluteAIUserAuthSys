@@ -4,6 +4,8 @@ This is a small project user authentication system project built using Python te
 
 > [!IMPORTANT]
 > Please create a MongoDB database called **UsersDB** and inside it create a collection called **users**. [click here](https://account.mongodb.com/account/login)
+> Read and rename .example_env file with .example_env
+> Install the Python modules by running pip install requirements.txt
 
 ## URL Endpoints
 
