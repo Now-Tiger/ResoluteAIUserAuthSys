@@ -1,8 +1,39 @@
-# User Authentication System
+# User Authentication System 🚀
 
 This is a small project user authentication system project built using Python tech stack.
 
-# Tech stack
+> [!IMPORTANT]
+> Please create a database called **UsersDB** and inside it create a collection called **users**
+
+## URL Endpoints
+
+#### User Sign up 📌
+
+```bash
+# URL: http://127.0.0.1:8080/api/v1/product/signup
+
+# Or you copy past below command on your terminal
+
+>> curl -d "first_name=John" -d "last_name=Doe" -d "username=johndoe88" -d "password=johnspassowrd" -d "email=john@gmail.com" -X 'POST' http://127.0.0.1:8080/api/v1/product/signup
+```
+
+#### Log in 📌
+
+```bash
+# URL: http://127.0.0.1:8080/api/v1/product/login
+
+>> curl -d "username=johndoe88" -d "password=johnspassowrd" -X 'POST' http://127.0.0.1:8080/api/v1/product/login
+```
+
+#### User authorized actions 📌
+
+These actions are updating password only when use is logged in.
+
+```bash
+# inporcess
+```
+
+# Tech stack 🦖
 
 - FastAPI
 - Pydantic
