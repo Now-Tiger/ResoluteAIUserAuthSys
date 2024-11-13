@@ -3,7 +3,7 @@
 This is a small project user authentication system project built using Python tech stack.
 
 > [!IMPORTANT]
-> Please create a database called **UsersDB** and inside it create a collection called **users**
+> Please create a MongoDB database called **UsersDB** and inside it create a collection called **users** > [click here](https://account.mongodb.com/account/login)
 
 ## URL Endpoints
 
