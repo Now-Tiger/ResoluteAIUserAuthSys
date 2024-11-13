@@ -3,7 +3,7 @@
 This is a small project user authentication system project built using Python tech stack.
 
 > [!IMPORTANT]
-> Please create a MongoDB database called **UsersDB** and inside it create a collection called **users** > [click here](https://account.mongodb.com/account/login)
+> Please create a MongoDB database called **UsersDB** and inside it create a collection called **users**. [click here](https://account.mongodb.com/account/login)
 
 ## URL Endpoints
 
@@ -30,7 +30,7 @@ This is a small project user authentication system project built using Python te
 These actions are updating password only when use is logged in.
 
 ```bash
-# inporcess
+# inprocess
 ```
 
 # Tech stack 🦖
