@@ -52,19 +52,22 @@ You'll have something like this:
 
 #### User authorized actions 📌
 
-These actions are updating password only when use is logged in.
+These actions are user specific actions.<br>
+
+**Change password**
+![image](./images/change_password.png)
 
 ```bash
-# inprocess
+> curl -d "old_passowrd=johnspassword" -d "new_password=johns_new_password" -X 'PUT' http://127.0.0.1:8080/api/v1/product/user/me/changePassword
 ```
 
-# Tech stack 🦖
+## Tech stack 🦖
 
 - FastAPI
 - Pydantic
 - MongoDB
 - JWT
 
-# Goals
+## Goals
 
 ![image](./images/goals.png)
